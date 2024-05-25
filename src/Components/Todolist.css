@@ -90,6 +90,7 @@
 @media (max-width: 767px) {
   .wrapper {
     width: 90%;
+    border-radius:1px
   }
 
   .wrapper .title {
