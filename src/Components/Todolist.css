@@ -1,0 +1,119 @@
+.wrapper {
+  background-color: black;
+  color: black;
+  padding: 50px 10px 10px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.wrapper .title {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.wrapper .subtitle {
+  color: white;
+  font-weight: 600;
+}
+
+.wrapper .for-input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 15px 0;
+  border: none;
+}
+
+.wrapper .for-btn {
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px 0;
+  background-color: blue;
+  border: none;
+  color: white;
+}
+
+.wrapper .for-btn:hover {
+  background: white;
+  color: black;
+}
+
+.wrapper .for-text {
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .for-text li {
+  background-color: white;
+  padding: 7px 17px;
+  border-radius: 1px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 80%;
+  text-align: start;
+}
+.wrapper .for-icon {
+  height: 25px;
+  width: 25px;
+  margin-left: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.wrapper .for-icon:hover {
+  transform: scale(1.1);
+}
+.wrapper .clearAll-btn {
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 5px 0;
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+.wrapper .clearAll-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 1070px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .wrapper .title {
+    font-size: 25px;
+  }
+  .wrapper .for-text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 370px) {
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .for-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 330px) {
+  .wrapper {
+    padding: 50px 1px 10px;
+  }
+  .wrapper .for-input {
+    max-width: 150px;
+  }
+}
