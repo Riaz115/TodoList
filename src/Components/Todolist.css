@@ -24,6 +24,10 @@
   margin: 15px 0;
   border: none;
 }
+.wrapper .for-input:focus {
+ outline:none;
+  box-shadow:none
+}
 
 .wrapper .for-btn {
   padding: 5px 10px;
